@@ -24,3 +24,4 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <EstimoteSDK/EstimoteSDK.h>
