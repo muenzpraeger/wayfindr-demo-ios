@@ -1,6 +1,7 @@
 platform :ios, '9.0'
 use_frameworks!
 
+target 'Wayfindr Demo' do
 pod 'AEXML', '~> 2.0'
 pod 'Alamofire', '~> 3.1'
 pod 'GRValidation', '~> 0.2'
@@ -8,9 +9,6 @@ pod 'Moya', '~> 6.0'
 pod 'SwiftGraph', '~> 1.0'
 pod 'SwiftyJSON', '~> 2.3'
 pod 'SVProgressHUD', '2.0-beta'
-
-target 'Wayfindr DemoTests' do
-  pod 'OHHTTPStubs', '~> 4.6'
 end
 
 post_install do | installer |

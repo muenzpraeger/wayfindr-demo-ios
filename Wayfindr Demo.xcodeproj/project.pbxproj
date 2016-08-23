@@ -9,11 +9,8 @@
 /* Begin PBXBuildFile section */
 		000438351C1576B600514477 /* String+URLEscape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000438341C1576B600514477 /* String+URLEscape.swift */; };
 		00044A221BFCA6EC00190A1D /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 00044A211BFCA6EC00190A1D /* Settings.bundle */; };
-		0007A1D11C10858E0004474D /* SwiftGraph+Additions_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0007A1D01C10858E0004474D /* SwiftGraph+Additions_Tests.swift */; };
 		001024AE1C0C9DFB00E6F7E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 001024AD1C0C9DFB00E6F7E9 /* LaunchScreen.storyboard */; };
-		001528AF1C0F4A4B002F0645 /* KeyRoutePathsDetailViewController_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001528AE1C0F4A4B002F0645 /* KeyRoutePathsDetailViewController_Tests.swift */; };
 		0017D7FE1C11877D00FF1615 /* DetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0017D7FD1C11877D00FF1615 /* DetailTableViewCell.swift */; };
-		002031241BFA1A04001C1575 /* XCTestCase+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002031221BFA19F5001C1575 /* XCTestCase+Additions.swift */; };
 		002919CE1C2826A100D2BDD5 /* beaconsconfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 002919CD1C2826A100D2BDD5 /* beaconsconfig.plist */; };
 		002919D11C28272000D2BDD5 /* DemoBeaconInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002919D01C28272000D2BDD5 /* DemoBeaconInterface.swift */; };
 		002BFF1B1C1EE5CF006B98F9 /* AudioEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002BFF1A1C1EE5CF006B98F9 /* AudioEngine.swift */; };
@@ -23,17 +20,7 @@
 		003B66071BF5D03E00551B3A /* BaseSearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003B66051BF5D03E00551B3A /* BaseSearchTableViewController.swift */; };
 		003B66081BF5D03E00551B3A /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003B66061BF5D03E00551B3A /* BaseViewController.swift */; };
 		003B660A1BF5D07A00551B3A /* KeyValueLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003B66091BF5D07A00551B3A /* KeyValueLabel.swift */; };
-		003F881B1C0F30DC00215BFE /* ActiveRouteViewController_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003F881A1C0F30DC00215BFE /* ActiveRouteViewController_Tests.swift */; };
-		003F881D1C0F323800215BFE /* ExitSearchTableViewController_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003F881C1C0F323800215BFE /* ExitSearchTableViewController_Tests.swift */; };
-		003F881F1C0F329A00215BFE /* DestinationSearchTableViewController_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003F881E1C0F329A00215BFE /* DestinationSearchTableViewController_Tests.swift */; };
-		003F88211C0F32D500215BFE /* UserActionTableViewController_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003F88201C0F32D500215BFE /* UserActionTableViewController_Tests.swift */; };
-		003F88231C0F338000215BFE /* RouteCalculationViewController_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003F88221C0F338000215BFE /* RouteCalculationViewController_Tests.swift */; };
 		004439251BF218D700031373 /* dualPing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 004439241BF218D700031373 /* dualPing.mp3 */; };
-		0044392B1BF22A0000031373 /* WAYGraphNode_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0044392A1BF22A0000031373 /* WAYGraphNode_Tests.swift */; };
-		004439321BF22C1D00031373 /* TestData.graphml in Resources */ = {isa = PBXBuildFile; fileRef = 004439311BF22C1D00031373 /* TestData.graphml */; };
-		004439351BF2469300031373 /* WAYInstructionSet_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004439341BF2469300031373 /* WAYInstructionSet_Tests.swift */; };
-		004439371BF24AB900031373 /* WAYGraphEdge_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004439361BF24AB900031373 /* WAYGraphEdge_Tests.swift */; };
-		004439391BF24C4900031373 /* WAYGraph_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004439381BF24C4900031373 /* WAYGraph_Tests.swift */; };
 		00486FFA1C29B308003DE840 /* WAYDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00486FF91C29B308003DE840 /* WAYDestination.swift */; };
 		00570E0C1C0D820D0006F757 /* WAYAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00570E091C0D820D0006F757 /* WAYAccessibility.swift */; };
 		00570E0D1C0D820D0006F757 /* WAYConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00570E0A1C0D820D0006F757 /* WAYConstants.swift */; };
@@ -44,7 +31,6 @@
 		00687E4F1C1AAD160050E86E /* BeaconInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00687E4C1C1AAD160050E86E /* BeaconInterface.swift */; };
 		00687E501C1AAD160050E86E /* BeaconInterfaceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00687E4D1C1AAD160050E86E /* BeaconInterfaceDelegate.swift */; };
 		00687E521C1AAD4C0050E86E /* VenueInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00687E511C1AAD4C0050E86E /* VenueInterface.swift */; };
-		0068F9421C0ED7E000DFA484 /* MockBeaconInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0068F9411C0ED7E000DFA484 /* MockBeaconInterface.swift */; };
 		006EA5021BF3393700BE1B37 /* UIImage+AssetIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006EA5011BF3393700BE1B37 /* UIImage+AssetIdentifier.swift */; };
 		006EA5101BF3608E00BE1B37 /* ModeSelectionTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006EA50F1BF3608E00BE1B37 /* ModeSelectionTabBarController.swift */; };
 		006EA51B1BF3609600BE1B37 /* MaintainerActionSelectionTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006EA5151BF3609600BE1B37 /* MaintainerActionSelectionTableView.swift */; };
@@ -56,19 +42,11 @@
 		00736BE01BF4BE9F004A07FF /* BeaconsInRangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00736BDF1BF4BE9F004A07FF /* BeaconsInRangeViewController.swift */; };
 		00736BE21BF4BEB2004A07FF /* BeaconsInRangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00736BE11BF4BEB2004A07FF /* BeaconsInRangeView.swift */; };
 		00736BE61BF4C590004A07FF /* UIView+Borders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00736BE51BF4C590004A07FF /* UIView+Borders.swift */; };
-		00747C011BFDDA9600969289 /* TestVenue.json in Resources */ = {isa = PBXBuildFile; fileRef = 00747C001BFDDA9600969289 /* TestVenue.json */; };
-		008843611C0C4EDF00B1363C /* DeveloperOptionsTableViewController_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008843601C0C4EDF00B1363C /* DeveloperOptionsTableViewController_Tests.swift */; };
 		0088436B1C0C66CA00B1363C /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0088436A1C0C66CA00B1363C /* BannerView.swift */; };
 		008DE33C1C294F100025F4A6 /* BeaconInterfaceState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008DE33B1C294F100025F4A6 /* BeaconInterfaceState.swift */; };
 		009805A01C0C3368009F1981 /* SwitchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0098059F1C0C3368009F1981 /* SwitchTableViewCell.swift */; };
 		009805A21C0C3762009F1981 /* WAYDeveloperSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009805A11C0C3762009F1981 /* WAYDeveloperSettings.swift */; };
-		009E884F1C242A2600EF3D2E /* GraphValidationViewController_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009E884E1C242A2600EF3D2E /* GraphValidationViewController_Tests.swift */; };
 		00A0A4261C0F0B83000DDFB3 /* UIViewController+ErrorMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A0A4251C0F0B83000DDFB3 /* UIViewController+ErrorMessages.swift */; };
-		00A0A4281C0F1405000DDFB3 /* KeyRoutePathsTableViewController_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A0A4271C0F1405000DDFB3 /* KeyRoutePathsTableViewController_Tests.swift */; };
-		00A0A42A1C0F14D6000DDFB3 /* ConvenienceFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A0A4291C0F14D6000DDFB3 /* ConvenienceFunctions.swift */; };
-		00A0A42C1C0F16A4000DDFB3 /* MissingKeyRoutesTableViewController_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A0A42B1C0F16A4000DDFB3 /* MissingKeyRoutesTableViewController_Tests.swift */; };
-		00A0A42E1C0F1705000DDFB3 /* MaintainerActionSelectionTableView_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A0A42D1C0F1705000DDFB3 /* MaintainerActionSelectionTableView_Tests.swift */; };
-		00A896D51C1742590073F9AC /* String+URLEscape_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A896D41C1742590073F9AC /* String+URLEscape_Tests.swift */; };
 		00AB4A8D1BF3741B0030EA38 /* DestinationSearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00AB4A8C1BF3741B0030EA38 /* DestinationSearchTableViewController.swift */; };
 		00BDEC881C21ACD000FDFB6E /* BeaconInterfaceAPIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BDEC871C21ACD000FDFB6E /* BeaconInterfaceAPIError.swift */; };
 		00BDEC8A1C21B29A00FDFB6E /* VenueInterfaceAPIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BDEC891C21B29A00FDFB6E /* VenueInterfaceAPIError.swift */; };
@@ -82,9 +60,7 @@
 		00C7E4C41C197A5D00E6B7A4 /* LabeledSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C7E4C31C197A5D00E6B7A4 /* LabeledSwitch.swift */; };
 		00CE72381C184F230007AF28 /* SubtitledDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CE72371C184F230007AF28 /* SubtitledDetailTableViewCell.swift */; };
 		00CE723A1C1862850007AF28 /* BatteryLevelsHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CE72391C1862850007AF28 /* BatteryLevelsHeaderView.swift */; };
-		00D15DA01C2062B200283EBF /* MockVenueInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D15D9F1C2062B200283EBF /* MockVenueInterface.swift */; };
 		00D4F9E91C181BF700DE7B70 /* BatteryLevelsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D4F9E81C181BF600DE7B70 /* BatteryLevelsTableViewController.swift */; };
-		00D4F9EF1C18433800DE7B70 /* BatteryLevelsTableViewController_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D4F9EE1C18433800DE7B70 /* BatteryLevelsTableViewController_Tests.swift */; };
 		00D778B01BFC5E590007258F /* RouteCalculationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D778AF1BFC5E590007258F /* RouteCalculationViewController.swift */; };
 		00D778B21BFC5E850007258F /* RouteCalculationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D778B11BFC5E850007258F /* RouteCalculationView.swift */; };
 		00D778B41BFC9D620007258F /* SwiftGraph+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D778B31BFC9D620007258F /* SwiftGraph+Additions.swift */; };
@@ -105,39 +81,21 @@
 		00F318051C3EC20E004DE903 /* DataExportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F318041C3EC20E004DE903 /* DataExportViewController.swift */; };
 		00F318071C3F9862004DE903 /* DataExportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F318061C3F9862004DE903 /* DataExportView.swift */; };
 		00F604721BF47EFC002431D5 /* DirectionsPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F604711BF47EFC002431D5 /* DirectionsPreviewViewController.swift */; };
-		00F9C89F1BFF06EF00A12B44 /* BeaconsInRangeViewController_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F9C89E1BFF06EF00A12B44 /* BeaconsInRangeViewController_Tests.swift */; };
-		00F9C8A11BFF072600A12B44 /* DirectionsPreviewViewController_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F9C8A01BFF072600A12B44 /* DirectionsPreviewViewController_Tests.swift */; };
 		00FE28161C2022CE003B9162 /* BeaconsInRangeSearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FE28151C2022CE003B9162 /* BeaconsInRangeSearchTableViewController.swift */; };
 		00FE28181C202879003B9162 /* BeaconsInRangeModeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FE28171C202879003B9162 /* BeaconsInRangeModeViewController.swift */; };
 		00FE281A1C2028B0003B9162 /* BeaconsInRangeModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FE28191C2028B0003B9162 /* BeaconsInRangeModeView.swift */; };
-		00FE281C1C203916003B9162 /* BeaconsInRangeModeViewController_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FE281B1C203916003B9162 /* BeaconsInRangeModeViewController_Tests.swift */; };
-		00FE281E1C203A0A003B9162 /* BeaconsInRangeSearchTableViewController_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FE281D1C203A0A003B9162 /* BeaconsInRangeSearchTableViewController_Tests.swift */; };
 		00FF76811BF9BF8A007215B4 /* WAYError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FF76801BF9BF8A007215B4 /* WAYError.swift */; };
 		00FF76831BF9D371007215B4 /* ActiveRouteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FF76821BF9D371007215B4 /* ActiveRouteViewController.swift */; };
 		00FF76851BF9D38B007215B4 /* ActiveRouteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FF76841BF9D38B007215B4 /* ActiveRouteView.swift */; };
-		1C5643269F7B73CFE95242A2 /* Pods_Wayfindr_DemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27B6E0E22C84DFDA44DDAE12 /* Pods_Wayfindr_DemoTests.framework */; };
-		7D964E7132DF048E2EF67ED2 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56393D20E05B9D6AC56358B5 /* Pods.framework */; };
 		7EB62E311CBD2B2200E16472 /* triPing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7EB62E301CBD2B2200E16472 /* triPing.mp3 */; };
+		C891D134907C29FC59C855E2 /* Pods_Wayfindr_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CA6B3C7DDB978EC7A547712 /* Pods_Wayfindr_Demo.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		00BF3D5A1BF20ED40075533D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 00BF3D3D1BF20ED40075533D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 00BF3D441BF20ED40075533D;
-			remoteInfo = "Wayfindr Demo";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		000438341C1576B600514477 /* String+URLEscape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+URLEscape.swift"; sourceTree = "<group>"; };
 		00044A211BFCA6EC00190A1D /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
-		0007A1D01C10858E0004474D /* SwiftGraph+Additions_Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SwiftGraph+Additions_Tests.swift"; sourceTree = "<group>"; };
 		001024AD1C0C9DFB00E6F7E9 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		001528AE1C0F4A4B002F0645 /* KeyRoutePathsDetailViewController_Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyRoutePathsDetailViewController_Tests.swift; sourceTree = "<group>"; };
 		0017D7FD1C11877D00FF1615 /* DetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailTableViewCell.swift; sourceTree = "<group>"; };
-		002031221BFA19F5001C1575 /* XCTestCase+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "XCTestCase+Additions.swift"; sourceTree = "<group>"; };
 		002919CD1C2826A100D2BDD5 /* beaconsconfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = beaconsconfig.plist; sourceTree = "<group>"; };
 		002919D01C28272000D2BDD5 /* DemoBeaconInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoBeaconInterface.swift; sourceTree = "<group>"; };
 		002BFF1A1C1EE5CF006B98F9 /* AudioEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioEngine.swift; sourceTree = "<group>"; };
@@ -147,18 +105,8 @@
 		003B66051BF5D03E00551B3A /* BaseSearchTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseSearchTableViewController.swift; sourceTree = "<group>"; };
 		003B66061BF5D03E00551B3A /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		003B66091BF5D07A00551B3A /* KeyValueLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyValueLabel.swift; sourceTree = "<group>"; };
-		003F881A1C0F30DC00215BFE /* ActiveRouteViewController_Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActiveRouteViewController_Tests.swift; sourceTree = "<group>"; };
-		003F881C1C0F323800215BFE /* ExitSearchTableViewController_Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExitSearchTableViewController_Tests.swift; sourceTree = "<group>"; };
-		003F881E1C0F329A00215BFE /* DestinationSearchTableViewController_Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DestinationSearchTableViewController_Tests.swift; sourceTree = "<group>"; };
-		003F88201C0F32D500215BFE /* UserActionTableViewController_Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserActionTableViewController_Tests.swift; sourceTree = "<group>"; };
-		003F88221C0F338000215BFE /* RouteCalculationViewController_Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouteCalculationViewController_Tests.swift; sourceTree = "<group>"; };
 		004439221BF216BA00031373 /* WayfindrDemo-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WayfindrDemo-Bridging-Header.h"; sourceTree = "<group>"; };
 		004439241BF218D700031373 /* dualPing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dualPing.mp3; sourceTree = "<group>"; };
-		0044392A1BF22A0000031373 /* WAYGraphNode_Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WAYGraphNode_Tests.swift; sourceTree = "<group>"; };
-		004439311BF22C1D00031373 /* TestData.graphml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = TestData.graphml; sourceTree = "<group>"; };
-		004439341BF2469300031373 /* WAYInstructionSet_Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WAYInstructionSet_Tests.swift; sourceTree = "<group>"; };
-		004439361BF24AB900031373 /* WAYGraphEdge_Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WAYGraphEdge_Tests.swift; sourceTree = "<group>"; };
-		004439381BF24C4900031373 /* WAYGraph_Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WAYGraph_Tests.swift; sourceTree = "<group>"; };
 		00486FF91C29B308003DE840 /* WAYDestination.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WAYDestination.swift; sourceTree = "<group>"; };
 		00570E091C0D820D0006F757 /* WAYAccessibility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WAYAccessibility.swift; sourceTree = "<group>"; };
 		00570E0A1C0D820D0006F757 /* WAYConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WAYConstants.swift; sourceTree = "<group>"; };
@@ -169,7 +117,6 @@
 		00687E4C1C1AAD160050E86E /* BeaconInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeaconInterface.swift; sourceTree = "<group>"; };
 		00687E4D1C1AAD160050E86E /* BeaconInterfaceDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeaconInterfaceDelegate.swift; sourceTree = "<group>"; };
 		00687E511C1AAD4C0050E86E /* VenueInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenueInterface.swift; sourceTree = "<group>"; };
-		0068F9411C0ED7E000DFA484 /* MockBeaconInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockBeaconInterface.swift; sourceTree = "<group>"; };
 		006EA5011BF3393700BE1B37 /* UIImage+AssetIdentifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+AssetIdentifier.swift"; sourceTree = "<group>"; };
 		006EA50F1BF3608E00BE1B37 /* ModeSelectionTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModeSelectionTabBarController.swift; sourceTree = "<group>"; };
 		006EA5151BF3609600BE1B37 /* MaintainerActionSelectionTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaintainerActionSelectionTableView.swift; sourceTree = "<group>"; };
@@ -181,25 +128,15 @@
 		00736BDF1BF4BE9F004A07FF /* BeaconsInRangeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeaconsInRangeViewController.swift; sourceTree = "<group>"; };
 		00736BE11BF4BEB2004A07FF /* BeaconsInRangeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeaconsInRangeView.swift; sourceTree = "<group>"; };
 		00736BE51BF4C590004A07FF /* UIView+Borders.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Borders.swift"; sourceTree = "<group>"; };
-		00747C001BFDDA9600969289 /* TestVenue.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TestVenue.json; sourceTree = "<group>"; };
-		008843601C0C4EDF00B1363C /* DeveloperOptionsTableViewController_Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeveloperOptionsTableViewController_Tests.swift; sourceTree = "<group>"; };
 		0088436A1C0C66CA00B1363C /* BannerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
 		008DE33B1C294F100025F4A6 /* BeaconInterfaceState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeaconInterfaceState.swift; sourceTree = "<group>"; };
 		0098059F1C0C3368009F1981 /* SwitchTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchTableViewCell.swift; sourceTree = "<group>"; };
 		009805A11C0C3762009F1981 /* WAYDeveloperSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WAYDeveloperSettings.swift; sourceTree = "<group>"; };
-		009E884E1C242A2600EF3D2E /* GraphValidationViewController_Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphValidationViewController_Tests.swift; sourceTree = "<group>"; };
 		00A0A4251C0F0B83000DDFB3 /* UIViewController+ErrorMessages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+ErrorMessages.swift"; sourceTree = "<group>"; };
-		00A0A4271C0F1405000DDFB3 /* KeyRoutePathsTableViewController_Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyRoutePathsTableViewController_Tests.swift; sourceTree = "<group>"; };
-		00A0A4291C0F14D6000DDFB3 /* ConvenienceFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConvenienceFunctions.swift; sourceTree = "<group>"; };
-		00A0A42B1C0F16A4000DDFB3 /* MissingKeyRoutesTableViewController_Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MissingKeyRoutesTableViewController_Tests.swift; sourceTree = "<group>"; };
-		00A0A42D1C0F1705000DDFB3 /* MaintainerActionSelectionTableView_Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaintainerActionSelectionTableView_Tests.swift; sourceTree = "<group>"; };
-		00A896D41C1742590073F9AC /* String+URLEscape_Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+URLEscape_Tests.swift"; sourceTree = "<group>"; };
 		00AB4A8C1BF3741B0030EA38 /* DestinationSearchTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DestinationSearchTableViewController.swift; sourceTree = "<group>"; };
 		00BDEC871C21ACD000FDFB6E /* BeaconInterfaceAPIError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeaconInterfaceAPIError.swift; sourceTree = "<group>"; };
 		00BDEC891C21B29A00FDFB6E /* VenueInterfaceAPIError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenueInterfaceAPIError.swift; sourceTree = "<group>"; };
 		00BF3D451BF20ED40075533D /* Wayfindr Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wayfindr Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		00BF3D591BF20ED40075533D /* Wayfindr Demo.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wayfindr Demo.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		00BF3D5F1BF20ED40075533D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00C2A84D1BFB2ACC00DBB75B /* BorderedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BorderedButton.swift; sourceTree = "<group>"; };
 		00C2A84F1BFB2B4700DBB75B /* BaseButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseButton.swift; sourceTree = "<group>"; };
 		00C2CAFD1BF384B600BF15AF /* WAYPlatform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WAYPlatform.swift; sourceTree = "<group>"; };
@@ -210,9 +147,7 @@
 		00C7E4C31C197A5D00E6B7A4 /* LabeledSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabeledSwitch.swift; sourceTree = "<group>"; };
 		00CE72371C184F230007AF28 /* SubtitledDetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubtitledDetailTableViewCell.swift; sourceTree = "<group>"; };
 		00CE72391C1862850007AF28 /* BatteryLevelsHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BatteryLevelsHeaderView.swift; sourceTree = "<group>"; };
-		00D15D9F1C2062B200283EBF /* MockVenueInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockVenueInterface.swift; sourceTree = "<group>"; };
 		00D4F9E81C181BF600DE7B70 /* BatteryLevelsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BatteryLevelsTableViewController.swift; sourceTree = "<group>"; };
-		00D4F9EE1C18433800DE7B70 /* BatteryLevelsTableViewController_Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BatteryLevelsTableViewController_Tests.swift; sourceTree = "<group>"; };
 		00D778AF1BFC5E590007258F /* RouteCalculationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouteCalculationViewController.swift; sourceTree = "<group>"; };
 		00D778B11BFC5E850007258F /* RouteCalculationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouteCalculationView.swift; sourceTree = "<group>"; };
 		00D778B31BFC9D620007258F /* SwiftGraph+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SwiftGraph+Additions.swift"; sourceTree = "<group>"; };
@@ -234,23 +169,19 @@
 		00F318041C3EC20E004DE903 /* DataExportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataExportViewController.swift; sourceTree = "<group>"; };
 		00F318061C3F9862004DE903 /* DataExportView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataExportView.swift; sourceTree = "<group>"; };
 		00F604711BF47EFC002431D5 /* DirectionsPreviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectionsPreviewViewController.swift; sourceTree = "<group>"; };
-		00F9C89E1BFF06EF00A12B44 /* BeaconsInRangeViewController_Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeaconsInRangeViewController_Tests.swift; sourceTree = "<group>"; };
-		00F9C8A01BFF072600A12B44 /* DirectionsPreviewViewController_Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectionsPreviewViewController_Tests.swift; sourceTree = "<group>"; };
 		00FE28151C2022CE003B9162 /* BeaconsInRangeSearchTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeaconsInRangeSearchTableViewController.swift; sourceTree = "<group>"; };
 		00FE28171C202879003B9162 /* BeaconsInRangeModeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeaconsInRangeModeViewController.swift; sourceTree = "<group>"; };
 		00FE28191C2028B0003B9162 /* BeaconsInRangeModeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeaconsInRangeModeView.swift; sourceTree = "<group>"; };
-		00FE281B1C203916003B9162 /* BeaconsInRangeModeViewController_Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeaconsInRangeModeViewController_Tests.swift; sourceTree = "<group>"; };
-		00FE281D1C203A0A003B9162 /* BeaconsInRangeSearchTableViewController_Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeaconsInRangeSearchTableViewController_Tests.swift; sourceTree = "<group>"; };
 		00FF76801BF9BF8A007215B4 /* WAYError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WAYError.swift; sourceTree = "<group>"; };
 		00FF76821BF9D371007215B4 /* ActiveRouteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActiveRouteViewController.swift; sourceTree = "<group>"; };
 		00FF76841BF9D38B007215B4 /* ActiveRouteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActiveRouteView.swift; sourceTree = "<group>"; };
-		1BD45E5174FDD478F0D01CD4 /* Pods-Wayfindr DemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wayfindr DemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Wayfindr DemoTests/Pods-Wayfindr DemoTests.release.xcconfig"; sourceTree = "<group>"; };
-		27B6E0E22C84DFDA44DDAE12 /* Pods_Wayfindr_DemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wayfindr_DemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3A69862B9038C88352E5BECB /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		44E5F7C4D7EA4C4B278462DE /* Pods-Wayfindr Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wayfindr Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Wayfindr Demo/Pods-Wayfindr Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		56393D20E05B9D6AC56358B5 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CA6B3C7DDB978EC7A547712 /* Pods_Wayfindr_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wayfindr_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EB62E301CBD2B2200E16472 /* triPing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = triPing.mp3; sourceTree = "<group>"; };
-		AA46AE87A70F799F37907DFC /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		CF3DA66614E18B3CBB105B63 /* Pods-Wayfindr DemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wayfindr DemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Wayfindr DemoTests/Pods-Wayfindr DemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C7FF457D7EE6A1C19C329E60 /* Pods-Wayfindr Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wayfindr Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Wayfindr Demo/Pods-Wayfindr Demo.release.xcconfig"; sourceTree = "<group>"; };
+		E3A25BDAF7DD394785ED8361 /* Pods-Wayfindr DemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wayfindr DemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Wayfindr DemoTests/Pods-Wayfindr DemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FB9B8E5099E7F9ED81FD0E65 /* Pods-Wayfindr DemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wayfindr DemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Wayfindr DemoTests/Pods-Wayfindr DemoTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -258,15 +189,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D964E7132DF048E2EF67ED2 /* Pods.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		00BF3D561BF20ED40075533D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1C5643269F7B73CFE95242A2 /* Pods_Wayfindr_DemoTests.framework in Frameworks */,
+				C891D134907C29FC59C855E2 /* Pods_Wayfindr_Demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,23 +202,6 @@
 				00044A211BFCA6EC00190A1D /* Settings.bundle */,
 			);
 			path = Settings;
-			sourceTree = "<group>";
-		};
-		0007A1CF1C10856D0004474D /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				0007A1D01C10858E0004474D /* SwiftGraph+Additions_Tests.swift */,
-				00A896D41C1742590073F9AC /* String+URLEscape_Tests.swift */,
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
-		002031211BFA19A5001C1575 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				002031221BFA19F5001C1575 /* XCTestCase+Additions.swift */,
-			);
-			path = Extensions;
 			sourceTree = "<group>";
 		};
 		002919CF1C2826E800D2BDD5 /* Beacon Interface */ = {
@@ -353,72 +259,6 @@
 			path = Sounds;
 			sourceTree = "<group>";
 		};
-		004439261BF2299800031373 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				004439271BF229A200031373 /* Controller */,
-				0007A1CF1C10856D0004474D /* Extensions */,
-				0068F9401C0ED7BC00DFA484 /* Interface */,
-				004439281BF229A700031373 /* Model */,
-				004439291BF229AC00031373 /* View */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		004439271BF229A200031373 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				00F9C89C1BFF06B500A12B44 /* Maintainer */,
-				00F9C89D1BFF06BE00A12B44 /* User */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		004439281BF229A700031373 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				004439381BF24C4900031373 /* WAYGraph_Tests.swift */,
-				004439361BF24AB900031373 /* WAYGraphEdge_Tests.swift */,
-				0044392A1BF22A0000031373 /* WAYGraphNode_Tests.swift */,
-				004439341BF2469300031373 /* WAYInstructionSet_Tests.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		004439291BF229AC00031373 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		0044392E1BF22BCA00031373 /* Common Tests */ = {
-			isa = PBXGroup;
-			children = (
-				002031211BFA19A5001C1575 /* Extensions */,
-				0044392F1BF22BEB00031373 /* Resources */,
-				00A0A4291C0F14D6000DDFB3 /* ConvenienceFunctions.swift */,
-			);
-			path = "Common Tests";
-			sourceTree = "<group>";
-		};
-		0044392F1BF22BEB00031373 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				004439301BF22BF500031373 /* Data */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		004439301BF22BF500031373 /* Data */ = {
-			isa = PBXGroup;
-			children = (
-				004439311BF22C1D00031373 /* TestData.graphml */,
-				00747C001BFDDA9600969289 /* TestVenue.json */,
-			);
-			path = Data;
-			sourceTree = "<group>";
-		};
 		00570E081C0D818C0006F757 /* Interface */ = {
 			isa = PBXGroup;
 			children = (
@@ -448,15 +288,6 @@
 				00BDEC891C21B29A00FDFB6E /* VenueInterfaceAPIError.swift */,
 			);
 			path = Venue;
-			sourceTree = "<group>";
-		};
-		0068F9401C0ED7BC00DFA484 /* Interface */ = {
-			isa = PBXGroup;
-			children = (
-				0068F9411C0ED7E000DFA484 /* MockBeaconInterface.swift */,
-				00D15D9F1C2062B200283EBF /* MockVenueInterface.swift */,
-			);
-			path = Interface;
 			sourceTree = "<group>";
 		};
 		006EA5001BF3390300BE1B37 /* Extensions */ = {
@@ -517,22 +348,13 @@
 			path = User;
 			sourceTree = "<group>";
 		};
-		00747BFA1BFDD7F700969289 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		00BF3D3C1BF20ED40075533D = {
 			isa = PBXGroup;
 			children = (
 				00BF3D471BF20ED40075533D /* Wayfindr Demo */,
-				00BF3D5C1BF20ED40075533D /* Wayfindr DemoTests */,
-				0044392E1BF22BCA00031373 /* Common Tests */,
 				00BF3D461BF20ED40075533D /* Products */,
-				2A24E60D1DB2F00628B0B947 /* Pods */,
 				80C22D04DB8DA3B66964392E /* Frameworks */,
+				D93EA862C14D6BFFD15FA1FB /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -540,7 +362,6 @@
 			isa = PBXGroup;
 			children = (
 				00BF3D451BF20ED40075533D /* Wayfindr Demo.app */,
-				00BF3D591BF20ED40075533D /* Wayfindr Demo.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -554,16 +375,6 @@
 				00DAE70A1BF20F96003C679E /* Supporting Files */,
 			);
 			path = "Wayfindr Demo";
-			sourceTree = "<group>";
-		};
-		00BF3D5C1BF20ED40075533D /* Wayfindr DemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				004439261BF2299800031373 /* Classes */,
-				00747BFA1BFDD7F700969289 /* Supporting Files */,
-				00BF3D5F1BF20ED40075533D /* Info.plist */,
-			);
-			path = "Wayfindr DemoTests";
 			sourceTree = "<group>";
 		};
 		00C441831C4510F100C4F7E5 /* Demo Venu */ = {
@@ -704,47 +515,6 @@
 			path = Constants;
 			sourceTree = "<group>";
 		};
-		00F9C89C1BFF06B500A12B44 /* Maintainer */ = {
-			isa = PBXGroup;
-			children = (
-				00D4F9EE1C18433800DE7B70 /* BatteryLevelsTableViewController_Tests.swift */,
-				00F9C89E1BFF06EF00A12B44 /* BeaconsInRangeViewController_Tests.swift */,
-				00FE281B1C203916003B9162 /* BeaconsInRangeModeViewController_Tests.swift */,
-				00FE281D1C203A0A003B9162 /* BeaconsInRangeSearchTableViewController_Tests.swift */,
-				008843601C0C4EDF00B1363C /* DeveloperOptionsTableViewController_Tests.swift */,
-				009E884E1C242A2600EF3D2E /* GraphValidationViewController_Tests.swift */,
-				00A0A4271C0F1405000DDFB3 /* KeyRoutePathsTableViewController_Tests.swift */,
-				001528AE1C0F4A4B002F0645 /* KeyRoutePathsDetailViewController_Tests.swift */,
-				00A0A42B1C0F16A4000DDFB3 /* MissingKeyRoutesTableViewController_Tests.swift */,
-				00A0A42D1C0F1705000DDFB3 /* MaintainerActionSelectionTableView_Tests.swift */,
-			);
-			path = Maintainer;
-			sourceTree = "<group>";
-		};
-		00F9C89D1BFF06BE00A12B44 /* User */ = {
-			isa = PBXGroup;
-			children = (
-				003F881A1C0F30DC00215BFE /* ActiveRouteViewController_Tests.swift */,
-				00F9C8A01BFF072600A12B44 /* DirectionsPreviewViewController_Tests.swift */,
-				003F881C1C0F323800215BFE /* ExitSearchTableViewController_Tests.swift */,
-				003F88221C0F338000215BFE /* RouteCalculationViewController_Tests.swift */,
-				003F881E1C0F329A00215BFE /* DestinationSearchTableViewController_Tests.swift */,
-				003F88201C0F32D500215BFE /* UserActionTableViewController_Tests.swift */,
-			);
-			path = User;
-			sourceTree = "<group>";
-		};
-		2A24E60D1DB2F00628B0B947 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				3A69862B9038C88352E5BECB /* Pods.debug.xcconfig */,
-				AA46AE87A70F799F37907DFC /* Pods.release.xcconfig */,
-				CF3DA66614E18B3CBB105B63 /* Pods-Wayfindr DemoTests.debug.xcconfig */,
-				1BD45E5174FDD478F0D01CD4 /* Pods-Wayfindr DemoTests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		7E13B9FC1CBE4CF400934E16 /* Example Implementation */ = {
 			isa = PBXGroup;
 			children = (
@@ -758,9 +528,20 @@
 			isa = PBXGroup;
 			children = (
 				56393D20E05B9D6AC56358B5 /* Pods.framework */,
-				27B6E0E22C84DFDA44DDAE12 /* Pods_Wayfindr_DemoTests.framework */,
+				5CA6B3C7DDB978EC7A547712 /* Pods_Wayfindr_Demo.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D93EA862C14D6BFFD15FA1FB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E3A25BDAF7DD394785ED8361 /* Pods-Wayfindr DemoTests.debug.xcconfig */,
+				FB9B8E5099E7F9ED81FD0E65 /* Pods-Wayfindr DemoTests.release.xcconfig */,
+				44E5F7C4D7EA4C4B278462DE /* Pods-Wayfindr Demo.debug.xcconfig */,
+				C7FF457D7EE6A1C19C329E60 /* Pods-Wayfindr Demo.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -770,12 +551,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00BF3D6D1BF20ED40075533D /* Build configuration list for PBXNativeTarget "Wayfindr Demo" */;
 			buildPhases = (
-				3082042A8147821E264BA306 /* Check Pods Manifest.lock */,
+				62EB26A62A4EB2FF678BF61B /* [CP] Check Pods Manifest.lock */,
 				00BF3D411BF20ED40075533D /* Sources */,
 				00BF3D421BF20ED40075533D /* Frameworks */,
 				00BF3D431BF20ED40075533D /* Resources */,
-				EC703142B572892FA1DE779B /* Embed Pods Frameworks */,
-				9D8E020CDAAE55749FDED793 /* Copy Pods Resources */,
+				5FD0D544524E95A9585B69F1 /* [CP] Embed Pods Frameworks */,
+				E1E5FEDC897E04CD9DF13ACA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -785,27 +566,6 @@
 			productName = "Wayfindr Demo";
 			productReference = 00BF3D451BF20ED40075533D /* Wayfindr Demo.app */;
 			productType = "com.apple.product-type.application";
-		};
-		00BF3D581BF20ED40075533D /* Wayfindr DemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 00BF3D701BF20ED40075533D /* Build configuration list for PBXNativeTarget "Wayfindr DemoTests" */;
-			buildPhases = (
-				4B963928D65A5751020A189D /* Check Pods Manifest.lock */,
-				00BF3D551BF20ED40075533D /* Sources */,
-				00BF3D561BF20ED40075533D /* Frameworks */,
-				00BF3D571BF20ED40075533D /* Resources */,
-				CB3B5CE375DFD7385E9A295A /* Embed Pods Frameworks */,
-				778B4674D7F436334AD6BAA3 /* Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				00BF3D5B1BF20ED40075533D /* PBXTargetDependency */,
-			);
-			name = "Wayfindr DemoTests";
-			productName = "Wayfindr DemoTests";
-			productReference = 00BF3D591BF20ED40075533D /* Wayfindr Demo.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -820,10 +580,6 @@
 				TargetAttributes = {
 					00BF3D441BF20ED40075533D = {
 						CreatedOnToolsVersion = 7.1.1;
-					};
-					00BF3D581BF20ED40075533D = {
-						CreatedOnToolsVersion = 7.1.1;
-						TestTargetID = 00BF3D441BF20ED40075533D;
 					};
 				};
 			};
@@ -841,7 +597,6 @@
 			projectRoot = "";
 			targets = (
 				00BF3D441BF20ED40075533D /* Wayfindr Demo */,
-				00BF3D581BF20ED40075533D /* Wayfindr DemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -862,106 +617,52 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		00BF3D571BF20ED40075533D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				00747C011BFDDA9600969289 /* TestVenue.json in Resources */,
-				004439321BF22C1D00031373 /* TestData.graphml in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3082042A8147821E264BA306 /* Check Pods Manifest.lock */ = {
+		5FD0D544524E95A9585B69F1 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Wayfindr Demo/Pods-Wayfindr Demo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		4B963928D65A5751020A189D /* Check Pods Manifest.lock */ = {
+		62EB26A62A4EB2FF678BF61B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		778B4674D7F436334AD6BAA3 /* Copy Pods Resources */ = {
+		E1E5FEDC897E04CD9DF13ACA /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Wayfindr DemoTests/Pods-Wayfindr DemoTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9D8E020CDAAE55749FDED793 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CB3B5CE375DFD7385E9A295A /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Wayfindr DemoTests/Pods-Wayfindr DemoTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		EC703142B572892FA1DE779B /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Wayfindr Demo/Pods-Wayfindr Demo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1047,48 +748,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		00BF3D551BF20ED40075533D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				00A0A4281C0F1405000DDFB3 /* KeyRoutePathsTableViewController_Tests.swift in Sources */,
-				00A0A42C1C0F16A4000DDFB3 /* MissingKeyRoutesTableViewController_Tests.swift in Sources */,
-				009E884F1C242A2600EF3D2E /* GraphValidationViewController_Tests.swift in Sources */,
-				003F88211C0F32D500215BFE /* UserActionTableViewController_Tests.swift in Sources */,
-				004439391BF24C4900031373 /* WAYGraph_Tests.swift in Sources */,
-				00FE281C1C203916003B9162 /* BeaconsInRangeModeViewController_Tests.swift in Sources */,
-				008843611C0C4EDF00B1363C /* DeveloperOptionsTableViewController_Tests.swift in Sources */,
-				004439371BF24AB900031373 /* WAYGraphEdge_Tests.swift in Sources */,
-				003F88231C0F338000215BFE /* RouteCalculationViewController_Tests.swift in Sources */,
-				00F9C8A11BFF072600A12B44 /* DirectionsPreviewViewController_Tests.swift in Sources */,
-				00A0A42A1C0F14D6000DDFB3 /* ConvenienceFunctions.swift in Sources */,
-				00F9C89F1BFF06EF00A12B44 /* BeaconsInRangeViewController_Tests.swift in Sources */,
-				003F881F1C0F329A00215BFE /* DestinationSearchTableViewController_Tests.swift in Sources */,
-				001528AF1C0F4A4B002F0645 /* KeyRoutePathsDetailViewController_Tests.swift in Sources */,
-				003F881D1C0F323800215BFE /* ExitSearchTableViewController_Tests.swift in Sources */,
-				0044392B1BF22A0000031373 /* WAYGraphNode_Tests.swift in Sources */,
-				004439351BF2469300031373 /* WAYInstructionSet_Tests.swift in Sources */,
-				003F881B1C0F30DC00215BFE /* ActiveRouteViewController_Tests.swift in Sources */,
-				00A0A42E1C0F1705000DDFB3 /* MaintainerActionSelectionTableView_Tests.swift in Sources */,
-				0068F9421C0ED7E000DFA484 /* MockBeaconInterface.swift in Sources */,
-				0007A1D11C10858E0004474D /* SwiftGraph+Additions_Tests.swift in Sources */,
-				002031241BFA1A04001C1575 /* XCTestCase+Additions.swift in Sources */,
-				00D4F9EF1C18433800DE7B70 /* BatteryLevelsTableViewController_Tests.swift in Sources */,
-				00FE281E1C203A0A003B9162 /* BeaconsInRangeSearchTableViewController_Tests.swift in Sources */,
-				00A896D51C1742590073F9AC /* String+URLEscape_Tests.swift in Sources */,
-				00D15DA01C2062B200283EBF /* MockVenueInterface.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		00BF3D5B1BF20ED40075533D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 00BF3D441BF20ED40075533D /* Wayfindr Demo */;
-			targetProxy = 00BF3D5A1BF20ED40075533D /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		00BF3D6B1BF20ED40075533D /* Debug */ = {
@@ -1176,17 +836,22 @@
 		};
 		00BF3D6E1BF20ED40075533D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3A69862B9038C88352E5BECB /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 44E5F7C4D7EA4C4B278462DE /* Pods-Wayfindr Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Result",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/Wayfindr Demo/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.wayfindr.Wayfindr-Demo";
 				PRODUCT_NAME = "Wayfindr Demo";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "Wayfindr Demo/Supporting Files/WayfindrDemo-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -1194,48 +859,23 @@
 		};
 		00BF3D6F1BF20ED40075533D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AA46AE87A70F799F37907DFC /* Pods.release.xcconfig */;
+			baseConfigurationReference = C7FF457D7EE6A1C19C329E60 /* Pods-Wayfindr Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Result",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/Wayfindr Demo/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.wayfindr.Wayfindr-Demo";
 				PRODUCT_NAME = "Wayfindr Demo";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "Wayfindr Demo/Supporting Files/WayfindrDemo-Bridging-Header.h";
-			};
-			name = Release;
-		};
-		00BF3D711BF20ED40075533D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CF3DA66614E18B3CBB105B63 /* Pods-Wayfindr DemoTests.debug.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = "Wayfindr DemoTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.wayfinder.Wayfindr-DemoTests";
-				PRODUCT_MODULE_NAME = Wayfindr_DemoTests;
-				PRODUCT_NAME = "Wayfindr Demo";
-				SWIFT_OBJC_BRIDGING_HEADER = "";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wayfindr Demo.app/Wayfindr Demo";
-			};
-			name = Debug;
-		};
-		00BF3D721BF20ED40075533D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1BD45E5174FDD478F0D01CD4 /* Pods-Wayfindr DemoTests.release.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = "Wayfindr DemoTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.wayfinder.Wayfindr-DemoTests";
-				PRODUCT_MODULE_NAME = Wayfindr_DemoTests;
-				PRODUCT_NAME = "Wayfindr Demo";
-				SWIFT_OBJC_BRIDGING_HEADER = "";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wayfindr Demo.app/Wayfindr Demo";
 			};
 			name = Release;
 		};
@@ -1256,15 +896,6 @@
 			buildConfigurations = (
 				00BF3D6E1BF20ED40075533D /* Debug */,
 				00BF3D6F1BF20ED40075533D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		00BF3D701BF20ED40075533D /* Build configuration list for PBXNativeTarget "Wayfindr DemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				00BF3D711BF20ED40075533D /* Debug */,
-				00BF3D721BF20ED40075533D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
