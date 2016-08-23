@@ -9,6 +9,7 @@ pod 'Moya', '~> 6.0'
 pod 'SwiftGraph', '~> 1.0'
 pod 'SwiftyJSON', '~> 2.3'
 pod 'SVProgressHUD', '2.0-beta'
+pod 'EstimoteSDK', '~> 4.7.3'
 end
 
 post_install do | installer |
