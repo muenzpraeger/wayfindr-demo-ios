@@ -43,17 +43,16 @@ final class DemoBeaconInterface: NSObject, BeaconInterface {
         
         super.init()
 
-        if (displayDemoInterfaceWarning) {
-            displayDemoInterfaceWarning = false
-
-            let alert = UIAlertController(title: "No Beacon Implementation", message: "The app is running with a dummy beacon implementation. No positioning features will work. For more info see the 'Interface' and 'Starting a New Trial' sections in the README file.", preferredStyle: .Alert)
-            let doneButton = UIAlertAction(title: WAYStrings.CommonStrings.Done, style: .Default, handler: nil)
-            alert.addAction(doneButton)
-            UIApplication.sharedApplication().keyWindow?.rootViewController?.presentViewController(alert, animated: true, completion: nil)
-        }
+        // Salesforce App Cloud - modification
+        //
+        // René Winkelmeyer
+        //
+        // - Removed demo warning message
+        // - Sample setup for connecting to the Estimote Cloud
+        //
+        // Will be removed later as data will be provided through Force.com.
         
-        // Perform Beacon SDK specific setup here
-        // Update interfaceState property once it is setup or setup has failed
+        ESTConfig.setupAppID("dreamforce-test1-cll", andAppToken: "ae8d960ba55500798dafacac63aae3c5")
         
         interfaceState = .Operating
     }
@@ -63,9 +62,26 @@ final class DemoBeaconInterface: NSObject, BeaconInterface {
     
     func getBeacons(completionHandler completionHandler: ((Bool, [WAYBeacon]?, BeaconInterfaceAPIError?) -> Void)?) {
         
-        // Fetch currently known Beacons using SDK specific methods here
-        // Create new WAYBeacon instances for each beacon returned by the Beacon SDK
+        // Salesforce App Cloud - modification
+        //
+        // René Winkelmeyer
+        //
+        // - Calling the Estimote API to read all available beacons from their cloud interface.
+        // - Populate a list of WAYBeacons with the loaded Estimote beacons
+        //
+        // Will be removed later as data will be provided through Force.com.
         
-        completionHandler?(true, [WAYBeacon](), nil)
+        var wayBeacons = [WAYBeacon]()
+        
+        let beaconsRequest = ESTRequestGetBeacons()
+        beaconsRequest.sendRequestWithCompletion { ( beacons: [ESTBeaconVO]?, error: NSError?) in
+            for beacon in beacons! {
+                let wayBeacon = WAYBeacon(major: beacon.major as Int, minor: beacon.minor as Int, UUIDString: beacon.proximityUUID)
+                wayBeacons.append(wayBeacon)
+                
+            }
+        }
+        
+        completionHandler?(true, wayBeacons, nil)
     }
 }
